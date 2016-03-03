@@ -1,0 +1,9 @@
+        <ul class="row card-panel hoverable collection with-header">
+          <li class="center-align collection-header"><h5>Past Projects</h5></li>
+          <li class="collection-item" ng-repeat="project in info">
+            <div class="row">
+              <div class="col s12"><b>{{project.title}}</b> - <a href="{{project.link}}">{{project.name}}</a> </div>
+              <div class="col s12">{{project.detail}}</div>
+            </div>
+          </li>
+        </ul>

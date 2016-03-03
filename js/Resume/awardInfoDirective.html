@@ -1,0 +1,10 @@
+        <ul class="row card-panel hoverable collection with-header">
+          <li class="center-align collection-header"><h4>Achievements</h4></li>
+          <li class="collection-item" ng-repeat="award in info">
+            <div class="row">
+              <div class="col s9"><b>{{award.org}}</b></div>
+              <div class="col s3 right-align">{{award.year}}</div>
+              <div class="col s12">{{award.name}}</div>
+            </div>
+          </li>
+        </ul>

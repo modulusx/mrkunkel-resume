@@ -1,0 +1,116 @@
+{
+    "contact_info": {
+        "name": "Matthew Kunkel",
+        "address1": "855 Folsom St. Apt 340",
+        "address2": "San Francisco, CA",
+        "phone": {
+            "number": "(234) 542-3763",
+            "link": "tel:234-542-3763"
+        },
+        "email": {
+            "address": "matt@mrkunkel.com",
+            "link": "mailto:matt@mrkunkel.com"
+        }
+    },
+    "about_me": [
+        { "info": "Restructured NASA Glenn Research Center's Engineering Support Office by replacing old systems and implementing new systems that allow the support team to ensure fast, smooth roll-out of applications and license services freeing resources to focus on other tasks." },
+        { "info": "Designed and implemented a PHP web-application driven by a MySQL Relational database to automate provisioning of user access to license services, file shares, and subversion repositories that was previously handled by manual administration." },
+        { "info": "Replaced Windows servers running MySQL, Apache, PHP and Subversion with Linux servers that provide better performance with simpler administration and 10% of the system requirements thus allowing better resource utilization on the local VMWare vSphere Cluster." },
+        { "info": "Simplified Linux system administration and configuration management tasks by utilizing Ansible and Tower to schedule and automate system updates, security configuration, and application installation." },
+        { "info": "Installed Zabbix and Consul providing fault detection and email alerting to system administrators as well as monitoring the health and availability of services." },
+        { "info": "Configured Splunk to enable application and system monitoring of network services and to expedite troubleshooting problems with network license contention by embedding dashboard reporting panels on the previously mentioned PHP webapp." },
+        { "info": "Replaced outdated documentation and process techniques by installing a Wiki to contain all previous and new standard operating procedures, enable knowledge transfer from old text files, and troubleshoot application and system issues." }
+    ],
+    "jobs": [
+        {
+            "title": "DevOps Engineer",
+            "co": "NASA Glenn Research Center - ASRC / Vantage Partners, LLC",
+            "start_date": "2010",
+            "end_date": "Present",
+            "achievements": [
+                {"info":"Responsible for design and implementation of an access control system (ESO Admin) to manage all Engineering Division network licenses and resources allowing the Engineering Division IT Staff to increase its user base by almost 300% without any additional staff resources."},
+                {"info":"The system, titled ESO Admin Tool, dynamically creates firewall rules, license server whitelists, and file-share permissions to control access to licenses, installers, and run-trees for approximately 800 users and 90 applications, saving time and money for project groups."},
+                {"info":"Implemented a C# application to automate gathering users' computer information required for automated dynamic whitelist configuration saving time for team members and allowing users to one-click install network printers without knowledge of print queues."},
+                {"info":"Implemented algorithms and configured Splunk to parse license server logs and provide license utilization reports allowing NASA to reduce the number of required licenses and save thousands of dollars. Embedded Splunk dashboard panels into the ESO Admin Tool to allow the Operations team to quickly and easily view system health."},
+                {"info":"Configured Zabbix Server and Clients to monitor overall system status and various specific Windows and Linux services on all Engineering Division systems, Splunk configuration to report on network license usage, and Ansible/Tower implementation to minimize repetitive configuration and maintenance tasks."},
+                {"info":"Configured and managed Apache, nginx, MySQL, Subversion, Gitlab, MediaWiki, WordPress and Atlassian products including Jira, Confluence, Fisheye, and Crucible."},
+                {"info":"Provisioned and managed Virtual Machines on VMware vSphere allowing for a reduction in hardware systems and greater resource utilization."}
+            ]
+        },
+        {
+            "title": "Systems Administrator / Software Engineer",
+            "co": "NASA Glenn Research Center - RSIS / Wyle Information Systems",
+            "start_date": "2003",
+            "end_date": "2010",
+            "achievements": [
+                {"info":"Lead Software Engineer responsible for directing a team of engineers to build GLIDE, a data-exchange application supporting hundreds of users across the NASA Agency. It enables multiple engineering disciplines to collaboratively design spacecraft in real-time without having to travel between centers and is currently still maintained and used weekly."},
+                {"info":"Designed and implemented as a client-server model enabling cross-platform support and the framework to allow integration into third-party applications through a RESTful API."},
+                {"info":"Added a chat-room, file-sharing, revision history and control, and parameter value graphing to monitor changes over time allowing the users to remain in the application while still completing secondary tasks."}
+            ]
+        }
+    ],
+    "skills": [
+        { "info": "Programming Languages: PHP, HTML5, SASS/CSS, REST API, Angular, node.js, Java, Android, Bash" },
+        { "info": "Databases: MySQL, Oracle, MongoDB, Postgres, InfluxDB" },
+        { "info": "Servers: Apache, nginx, MySQL, Subversion, gitlab, VMWare ESXi, Atlassian Products" },
+        { "info": "Services: Ansible/Tower, Vagrant, Docker, Zabbix, Splunk, Grafana, Amazon AWS" },
+        { "info": "Linux/Unix: Ubuntu, CentOS, RHEL, OS X" }
+    ],
+    "projects": [
+        {
+            "title": "Pebble Applications",
+            "name": "Homie",
+            "link": "https://github.com/modulusx/homie-for-pebble",
+            "detail": "A dynamically-driven application that builds a simple menu interface from a service description generated on a user-defined server provided by a REST API. Also built to enable remote control of anything."
+        },
+        {
+            "title": "Pebble / Particle Applications",
+            "name": "HeadRest",
+            "link": "https://github.com/modulusx",
+            "detail": "A combination of two apps, headrest-for-particle, which runs on a Particle/Spark Core, and headrest-for-pebble, which runs on a Pebble Watch.  The Pebble app is configured to securely connect to the Particle REST API and remotely switch the output of pin D7 to high or low.  If pin D6 is triggered on the Particle device, the Pebble Watch receives a notification. This could be used to enable home automation or security, or anything else requiring remote interface to switchable hardware."
+        },
+        {
+            "title": "Volunteering",
+            "name": "FIRST Robotics",
+            "link": "http://www.usfirst.org/",
+            "detail": "3 years as a Robot Inspector assuring safety and compliance for teams robots."
+        },
+        {
+            "title": "Volunteering",
+            "name": "NASA Exploring Post 631 - Computer Technology",
+            "link": "https://explorersposts.grc.nasa.gov/",
+            "detail": "2 years teaching, presenting, and providing help and inspiration to high school STEM students on opportunities in science, technology, engineering, and mathematics (STEM) including Lego NXT Robots, Arduinos, Programming and Web Development."
+        }
+    ],
+    "degrees": [
+        {
+            "co": "Cleveland State University",
+            "year": "2012",
+            "name": "M.S. in Software Engineering, GPA 4.0"
+        },
+        {
+            "co": "University of Akron",
+            "year": "2006",
+            "name": "B.S. in Computer Science, Minor in Spanish"
+        }
+    ],
+    "awards": [
+        {
+            "org": "Boy Scouts of America",
+            "year": "1998",
+            "name": "Eagle Scout"
+        }
+    ],
+    "social": [
+        {
+            "img": "img/in.jpg",
+            "tooltip": "Connect with me on LinkedIn!",
+            "link": "https://www.linkedin.com/in/mrkunkel"
+        },
+        {
+            "img": "img/gh.png",
+            "tooltip": "Check out my github projects!",
+            "link": "https://github.com/modulusx"
+        }
+    ]
+}
