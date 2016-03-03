@@ -1,5 +1,5 @@
 app.factory('resume', ['$http', function($http) { 
-  return $http.get('http://resume.mrkunkel.com/js/devops.json') 
+  return $http.get('/js/devops.json') 
             .success(function(data) { 
               return data; 
             }) 
